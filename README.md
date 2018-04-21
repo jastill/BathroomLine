@@ -1,5 +1,8 @@
 # BathroomLine
+
 Bathhroom Line Helper Code
+
+![alt iPhone App](https://raw.githubusercontent.com/jastill/BathroomLine/master/images/iPhoneApp.png)
 
 ## Architecture
 
