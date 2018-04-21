@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABA966CFA26FECF2602AEA4 /* Pods_BathroomWait.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7879E83BD6370C829D3A6DD8 /* Pods_BathroomWait.framework */; };
+		9CB0A5DF208964A30056F35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0A5DE208964A30056F35A /* AppDelegate.swift */; };
+		9CB0A5E1208964A30056F35A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0A5E0208964A30056F35A /* ViewController.swift */; };
+		9CB0A5E4208964A30056F35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0A5E2208964A30056F35A /* Main.storyboard */; };
+		9CB0A5E7208964A30056F35A /* BathroomWait.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0A5E5208964A30056F35A /* BathroomWait.xcdatamodeld */; };
+		9CB0A5E9208964A40056F35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0A5E8208964A40056F35A /* Assets.xcassets */; };
+		9CB0A5EC208964A40056F35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0A5EA208964A40056F35A /* LaunchScreen.storyboard */; };
+		9CB0A5F7208964A40056F35A /* BathroomWaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0A5F6208964A40056F35A /* BathroomWaitTests.swift */; };
+		9CB0A602208964A50056F35A /* BathroomWaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB0A601208964A50056F35A /* BathroomWaitUITests.swift */; };
+		9CB0A61320896C330056F35A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9CB0A61220896C330056F35A /* Podfile */; };
+		C29975A0292521A6EAB08226 /* Pods_BathroomWaitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE062948D08D721D25ED0531 /* Pods_BathroomWaitUITests.framework */; };
+		EA40B61416FC0B2A53A16E85 /* Pods_BathroomWaitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E437F035A1319D76F58DF3E9 /* Pods_BathroomWaitTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CB0A5F3208964A40056F35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB0A5D3208964A30056F35A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB0A5DA208964A30056F35A;
+			remoteInfo = BathroomWait;
+		};
+		9CB0A5FE208964A50056F35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB0A5D3208964A30056F35A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB0A5DA208964A30056F35A;
+			remoteInfo = BathroomWait;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B89F910B5968853237C6BE /* Pods-BathroomWait.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BathroomWait.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BathroomWait/Pods-BathroomWait.debug.xcconfig"; sourceTree = "<group>"; };
+		26E95181BC5FEFAC8D55B72A /* Pods-BathroomWaitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BathroomWaitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BathroomWaitTests/Pods-BathroomWaitTests.release.xcconfig"; sourceTree = "<group>"; };
+		6426DE89FED3ECB76E86A111 /* Pods-BathroomWaitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BathroomWaitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BathroomWaitUITests/Pods-BathroomWaitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7879E83BD6370C829D3A6DD8 /* Pods_BathroomWait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BathroomWait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EBC922E07D401AFD3C7DED /* Pods-BathroomWait.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BathroomWait.release.xcconfig"; path = "Pods/Target Support Files/Pods-BathroomWait/Pods-BathroomWait.release.xcconfig"; sourceTree = "<group>"; };
+		9CB0A5DB208964A30056F35A /* BathroomWait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BathroomWait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB0A5DE208964A30056F35A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CB0A5E0208964A30056F35A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CB0A5E3208964A30056F35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CB0A5E6208964A30056F35A /* BathroomWait.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BathroomWait.xcdatamodel; sourceTree = "<group>"; };
+		9CB0A5E8208964A40056F35A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CB0A5EB208964A40056F35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CB0A5ED208964A40056F35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB0A5F2208964A40056F35A /* BathroomWaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BathroomWaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB0A5F6208964A40056F35A /* BathroomWaitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomWaitTests.swift; sourceTree = "<group>"; };
+		9CB0A5F8208964A40056F35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB0A5FD208964A50056F35A /* BathroomWaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BathroomWaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB0A601208964A50056F35A /* BathroomWaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomWaitUITests.swift; sourceTree = "<group>"; };
+		9CB0A603208964A50056F35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB0A61220896C330056F35A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD81C418A4480C007E023732 /* Pods-BathroomWaitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BathroomWaitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BathroomWaitTests/Pods-BathroomWaitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE062948D08D721D25ED0531 /* Pods_BathroomWaitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BathroomWaitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E437F035A1319D76F58DF3E9 /* Pods_BathroomWaitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BathroomWaitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0F14B4BEAF7496C24CEEE0 /* Pods-BathroomWaitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BathroomWaitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BathroomWaitUITests/Pods-BathroomWaitUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB0A5D8208964A30056F35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABA966CFA26FECF2602AEA4 /* Pods_BathroomWait.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB0A5EF208964A40056F35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA40B61416FC0B2A53A16E85 /* Pods_BathroomWaitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB0A5FA208964A50056F35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29975A0292521A6EAB08226 /* Pods_BathroomWaitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F702DFC0C8F72E7CF69498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00B89F910B5968853237C6BE /* Pods-BathroomWait.debug.xcconfig */,
+				96EBC922E07D401AFD3C7DED /* Pods-BathroomWait.release.xcconfig */,
+				BD81C418A4480C007E023732 /* Pods-BathroomWaitTests.debug.xcconfig */,
+				26E95181BC5FEFAC8D55B72A /* Pods-BathroomWaitTests.release.xcconfig */,
+				6426DE89FED3ECB76E86A111 /* Pods-BathroomWaitUITests.debug.xcconfig */,
+				FC0F14B4BEAF7496C24CEEE0 /* Pods-BathroomWaitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87BFD89ADED3D5C54031BD41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7879E83BD6370C829D3A6DD8 /* Pods_BathroomWait.framework */,
+				E437F035A1319D76F58DF3E9 /* Pods_BathroomWaitTests.framework */,
+				BE062948D08D721D25ED0531 /* Pods_BathroomWaitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CB0A5D2208964A30056F35A = {
+			isa = PBXGroup;
+			children = (
+				9CB0A61220896C330056F35A /* Podfile */,
+				9CB0A5DD208964A30056F35A /* BathroomWait */,
+				9CB0A5F5208964A40056F35A /* BathroomWaitTests */,
+				9CB0A600208964A50056F35A /* BathroomWaitUITests */,
+				9CB0A5DC208964A30056F35A /* Products */,
+				41F702DFC0C8F72E7CF69498 /* Pods */,
+				87BFD89ADED3D5C54031BD41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB0A5DC208964A30056F35A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB0A5DB208964A30056F35A /* BathroomWait.app */,
+				9CB0A5F2208964A40056F35A /* BathroomWaitTests.xctest */,
+				9CB0A5FD208964A50056F35A /* BathroomWaitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB0A5DD208964A30056F35A /* BathroomWait */ = {
+			isa = PBXGroup;
+			children = (
+				9CB0A5DE208964A30056F35A /* AppDelegate.swift */,
+				9CB0A5E0208964A30056F35A /* ViewController.swift */,
+				9CB0A5E2208964A30056F35A /* Main.storyboard */,
+				9CB0A5E8208964A40056F35A /* Assets.xcassets */,
+				9CB0A5EA208964A40056F35A /* LaunchScreen.storyboard */,
+				9CB0A5ED208964A40056F35A /* Info.plist */,
+				9CB0A5E5208964A30056F35A /* BathroomWait.xcdatamodeld */,
+			);
+			path = BathroomWait;
+			sourceTree = "<group>";
+		};
+		9CB0A5F5208964A40056F35A /* BathroomWaitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB0A5F6208964A40056F35A /* BathroomWaitTests.swift */,
+				9CB0A5F8208964A40056F35A /* Info.plist */,
+			);
+			path = BathroomWaitTests;
+			sourceTree = "<group>";
+		};
+		9CB0A600208964A50056F35A /* BathroomWaitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB0A601208964A50056F35A /* BathroomWaitUITests.swift */,
+				9CB0A603208964A50056F35A /* Info.plist */,
+			);
+			path = BathroomWaitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB0A5DA208964A30056F35A /* BathroomWait */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB0A606208964A50056F35A /* Build configuration list for PBXNativeTarget "BathroomWait" */;
+			buildPhases = (
+				E41C831E2730C17E75D0437C /* [CP] Check Pods Manifest.lock */,
+				9CB0A5D7208964A30056F35A /* Sources */,
+				9CB0A5D8208964A30056F35A /* Frameworks */,
+				9CB0A5D9208964A30056F35A /* Resources */,
+				D61CFBF2E573085EF43DFC54 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BathroomWait;
+			productName = BathroomWait;
+			productReference = 9CB0A5DB208964A30056F35A /* BathroomWait.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CB0A5F1208964A40056F35A /* BathroomWaitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB0A609208964A50056F35A /* Build configuration list for PBXNativeTarget "BathroomWaitTests" */;
+			buildPhases = (
+				04090F95BAA95CC7C624E9FE /* [CP] Check Pods Manifest.lock */,
+				9CB0A5EE208964A40056F35A /* Sources */,
+				9CB0A5EF208964A40056F35A /* Frameworks */,
+				9CB0A5F0208964A40056F35A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB0A5F4208964A40056F35A /* PBXTargetDependency */,
+			);
+			name = BathroomWaitTests;
+			productName = BathroomWaitTests;
+			productReference = 9CB0A5F2208964A40056F35A /* BathroomWaitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CB0A5FC208964A50056F35A /* BathroomWaitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB0A60C208964A50056F35A /* Build configuration list for PBXNativeTarget "BathroomWaitUITests" */;
+			buildPhases = (
+				F3B3A6B28A2CFBD2FA72918A /* [CP] Check Pods Manifest.lock */,
+				9CB0A5F9208964A50056F35A /* Sources */,
+				9CB0A5FA208964A50056F35A /* Frameworks */,
+				9CB0A5FB208964A50056F35A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB0A5FF208964A50056F35A /* PBXTargetDependency */,
+			);
+			name = BathroomWaitUITests;
+			productName = BathroomWaitUITests;
+			productReference = 9CB0A5FD208964A50056F35A /* BathroomWaitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB0A5D3208964A30056F35A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "John Astill";
+				TargetAttributes = {
+					9CB0A5DA208964A30056F35A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					9CB0A5F1208964A40056F35A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9CB0A5DA208964A30056F35A;
+					};
+					9CB0A5FC208964A50056F35A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9CB0A5DA208964A30056F35A;
+					};
+				};
+			};
+			buildConfigurationList = 9CB0A5D6208964A30056F35A /* Build configuration list for PBXProject "BathroomWait" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CB0A5D2208964A30056F35A;
+			productRefGroup = 9CB0A5DC208964A30056F35A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB0A5DA208964A30056F35A /* BathroomWait */,
+				9CB0A5F1208964A40056F35A /* BathroomWaitTests */,
+				9CB0A5FC208964A50056F35A /* BathroomWaitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB0A5D9208964A30056F35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB0A61320896C330056F35A /* Podfile in Resources */,
+				9CB0A5EC208964A40056F35A /* LaunchScreen.storyboard in Resources */,
+				9CB0A5E9208964A40056F35A /* Assets.xcassets in Resources */,
+				9CB0A5E4208964A30056F35A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB0A5F0208964A40056F35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB0A5FB208964A50056F35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04090F95BAA95CC7C624E9FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BathroomWaitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61CFBF2E573085EF43DFC54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BathroomWait/Pods-BathroomWait-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BathroomWait/Pods-BathroomWait-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41C831E2730C17E75D0437C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BathroomWait-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B3A6B28A2CFBD2FA72918A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BathroomWaitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB0A5D7208964A30056F35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB0A5E1208964A30056F35A /* ViewController.swift in Sources */,
+				9CB0A5DF208964A30056F35A /* AppDelegate.swift in Sources */,
+				9CB0A5E7208964A30056F35A /* BathroomWait.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB0A5EE208964A40056F35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB0A5F7208964A40056F35A /* BathroomWaitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB0A5F9208964A50056F35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB0A602208964A50056F35A /* BathroomWaitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CB0A5F4208964A40056F35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB0A5DA208964A30056F35A /* BathroomWait */;
+			targetProxy = 9CB0A5F3208964A40056F35A /* PBXContainerItemProxy */;
+		};
+		9CB0A5FF208964A50056F35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB0A5DA208964A30056F35A /* BathroomWait */;
+			targetProxy = 9CB0A5FE208964A50056F35A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CB0A5E2208964A30056F35A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB0A5E3208964A30056F35A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CB0A5EA208964A40056F35A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB0A5EB208964A40056F35A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB0A604208964A50056F35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CB0A605208964A50056F35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB0A607208964A50056F35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B89F910B5968853237C6BE /* Pods-BathroomWait.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BathroomWait/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.astill.apps.BathroomWait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB0A608208964A50056F35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EBC922E07D401AFD3C7DED /* Pods-BathroomWait.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BathroomWait/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.astill.apps.BathroomWait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CB0A60A208964A50056F35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD81C418A4480C007E023732 /* Pods-BathroomWaitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV3Y7CGZ92;
+				INFOPLIST_FILE = BathroomWaitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.astill.apps.BathroomWaitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BathroomWait.app/BathroomWait";
+			};
+			name = Debug;
+		};
+		9CB0A60B208964A50056F35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E95181BC5FEFAC8D55B72A /* Pods-BathroomWaitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV3Y7CGZ92;
+				INFOPLIST_FILE = BathroomWaitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.astill.apps.BathroomWaitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BathroomWait.app/BathroomWait";
+			};
+			name = Release;
+		};
+		9CB0A60D208964A50056F35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6426DE89FED3ECB76E86A111 /* Pods-BathroomWaitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV3Y7CGZ92;
+				INFOPLIST_FILE = BathroomWaitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.astill.apps.BathroomWaitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BathroomWait;
+			};
+			name = Debug;
+		};
+		9CB0A60E208964A50056F35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0F14B4BEAF7496C24CEEE0 /* Pods-BathroomWaitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV3Y7CGZ92;
+				INFOPLIST_FILE = BathroomWaitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.astill.apps.BathroomWaitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BathroomWait;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB0A5D6208964A30056F35A /* Build configuration list for PBXProject "BathroomWait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB0A604208964A50056F35A /* Debug */,
+				9CB0A605208964A50056F35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB0A606208964A50056F35A /* Build configuration list for PBXNativeTarget "BathroomWait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB0A607208964A50056F35A /* Debug */,
+				9CB0A608208964A50056F35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB0A609208964A50056F35A /* Build configuration list for PBXNativeTarget "BathroomWaitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB0A60A208964A50056F35A /* Debug */,
+				9CB0A60B208964A50056F35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB0A60C208964A50056F35A /* Build configuration list for PBXNativeTarget "BathroomWaitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB0A60D208964A50056F35A /* Debug */,
+				9CB0A60E208964A50056F35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9CB0A5E5208964A30056F35A /* BathroomWait.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CB0A5E6208964A30056F35A /* BathroomWait.xcdatamodel */,
+			);
+			currentVersion = 9CB0A5E6208964A30056F35A /* BathroomWait.xcdatamodel */;
+			path = BathroomWait.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9CB0A5D3208964A30056F35A /* Project object */;
+}
