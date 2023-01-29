@@ -8,7 +8,7 @@ Bathhroom Line Helper Code
 
 The data sent from raspberry Pi (Python) needs to be distributed to other applications.
 
-Assuming that the data is tranisitional (not needed to be stored in a database), ussing a simple webscocket echo client can help.
+Assuming that the data is tranisitional (not needed to be stored in a database), using a simple webscocket echo client can help.
 
 In this example a node.js websocket server is running on a cloud server on port 8080, all messages sent by one client are received by the other client.
 
